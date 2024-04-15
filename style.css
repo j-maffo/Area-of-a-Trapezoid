@@ -1,0 +1,41 @@
+html {
+  background-color: rgb(196, 215, 255);
+}
+
+#the-body {
+  margin: auto 350px;
+  padding: 30px 100px;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: rgb(56, 56, 141);
+  text-align: center;
+}
+#trap-model {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+p {
+  font-weight: 600;
+}
+#area-formula {
+  font-size: 20px;
+}
+h2 {
+  color: rgb(168, 101, 26);
+}
+.mini-numbers {
+  font-size: 10px;
+}
+.checkmarks {
+  width: 20px;
+}
+#btn {
+  color: rgb(65, 36, 3);
+  font-weight: 600;
+  border: 2px solid rgb(56, 56, 141);
+  background-color: rgb(111, 145, 216);
+}

@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of Trapezoid Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="the-body">
+    <h1 id="top-header">Area of a Trapezoid Calculator</h1>
+    <p>
+      <img
+        id="trap-model"
+        src="images/area-trapezoid.png"
+        alt="Trapezoid Model"
+      />
+    </p>
+    <p id="area-formula">
+      Formula of Area = (b<span class="mini-numbers">1</span> + b<span
+        class="mini-numbers"
+        >2</span
+      >) / 2 x h
+    </p>
+
+    <h2>Inputs</h2>
+    <p>
+      Length of top base (b<span class="mini-numbers">1</span>) :
+      <input id="top-base-in" type="number" />
+      <span
+        ><img
+          class="checkmarks"
+          id="checkmark-top"
+          src="images/check.png"
+          alt="check mark"
+      /></span>
+    </p>
+    <p>
+      Length of bottom base (b<span class="mini-numbers">2</span>) :
+      <input id="bottom-base-in" type="number" />
+      <span
+        ><img
+          class="checkmarks"
+          id="checkmark-bottom"
+          src="images/check.png"
+          alt="check mark"
+      /></span>
+    </p>
+    <p>
+      Height of trapezoid (h) : <input id="height-in" type="number" />
+      <span>
+        <img
+          class="checkmarks"
+          id="checkmark-height"
+          src="images/check.png"
+          alt="check mark"
+      /></span>
+    </p>
+    <p>
+      Number of decimal places :
+      <input id="decimal-places-in" min="0" type="number" />
+      <span>
+        <img
+          class="checkmarks"
+          id="checkmark-decimal"
+          src="images/check.png"
+          alt="check mark"
+      /></span>
+    </p>
+
+    <p><button id="btn">CALCULATE</button></p>
+
+    <h2>Output</h2>
+    <p>The area of the trapezoid is <span id="area-out">----</span> .</p>
+  </body>
+</html>
